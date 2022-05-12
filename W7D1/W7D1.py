@@ -10,3 +10,6 @@ def greetings_users (users):
 
 usernames = ['steve', 'stan', 'debbie']
 greetings_users(usernames)
+
+asdasdas
+sadfasdfasdfsa
