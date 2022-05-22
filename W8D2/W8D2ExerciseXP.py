@@ -27,7 +27,7 @@
 #         self.height = height
 #
 #     def bark(self):
-#         print(random_dog.name + " barks! WOOF!")
+#         print(random_dog.name + " barks! WOOF!"). # here you should put self.dog
 #
 #     def jump(self):
 #         print("{} has jumped {} CM high!".format(random_dog.name, random_dog.height * 2))
