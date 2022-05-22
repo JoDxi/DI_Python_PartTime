@@ -27,10 +27,10 @@
 #         self.height = height
 #
 #     def bark(self):
-#         print(random_dog.name + " barks! WOOF!")
+#         print(self.name + " barks! WOOF!")
 #
 #     def jump(self):
-#         print("{} has jumped {} CM high!".format(random_dog.name, random_dog.height * 2))
+#         print("{} has jumped {} CM high!".format(self.name, self.height * 2))
 #
 #
 # random_dog = Dog('Pako', 70)
@@ -44,7 +44,22 @@
 #
 # sarahs_dog = Dog('Teacup', 20)
 # sarahs_dog.bark()
-
+# sarahs_dog.jump()
+#
+# if random_dog.height > davids_dog.height:
+#     print('Pako is bigger than Rex!')
+# else:
+#     print("Rex is bigger than Pako!")
+#
+# if random_dog.height > sarahs_dog.height:
+#     print('Pako is bigger than Teacup!')
+# else:
+#     print("Teacup is bigger than Pako!")
+# if davids_dog.height > sarahs_dog.height:
+#     print('Rex is bigger than Teacup')
+# else:
+#     print('Teacup is bigger than Rex!')
+#
 
 # Exercise 3 - Who's the song producer?
 
@@ -83,36 +98,36 @@
 
 # Exercise 4 : Afternoon At The Zoo
 #INCOMPLETE
-# class Zoo:
-#
-#     def __init__(self, zoo_name):
-#         self.name = zoo_name
-#
-#     def add_animal(new_animal):
-#         if new_animal not in animals:
-#             animals.append(new_animal)
-#
-#     def get_animals(self):
-#         print('The following animals are in the farm: ')
-#         for animal in self:
-#             print(animal)
-#
-#
-#     def sell_animal(animal_sold):
-#         animals.remove(animal_sold)
-#         pass
-#
-#     def sort_animals(self):
-#         print(sorted(animals))
-#
-# animals = []
-#
-# Zoo.add_animal('Pig')
-# Zoo.add_animal('Chicken')
-# Zoo.add_animal('Goat')
-# Zoo.add_animal('Cow')
-# Zoo.add_animal('Horse')
-# Zoo.get_animals(animals)
-# Zoo.sell_animal('Chicken')
-#
-#
+class Zoo:
+
+    def __init__(self, zoo_name):
+        self.name = zoo_name
+
+    def add_animal(new_animal):
+        if new_animal not in animals:
+            animals.append(new_animal)
+
+    def get_animals(self):
+        print('The following animals are in the farm: ')
+        for animal in self:
+            print(animal)
+
+
+    def sell_animal(animal_sold):
+        animals.remove(animal_sold)
+        pass
+
+    def sort_animals(self):
+        print(sorted(animals))
+
+animals = []
+
+Zoo.add_animal('Pig')
+Zoo.add_animal('Chicken')
+Zoo.add_animal('Goat')
+Zoo.add_animal('Cow')
+Zoo.add_animal('Horse')
+Zoo.get_animals(animals)
+Zoo.sell_animal('Chicken')
+
+
