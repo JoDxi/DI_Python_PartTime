@@ -19,7 +19,6 @@
 #
 
 # Exercise 2 - Dogs
-# INCOMPLETE
 # class Dog:
 #
 #     def __init__(self, name, height):
@@ -59,7 +58,7 @@
 #     print('Rex is bigger than Teacup')
 # else:
 #     print('Teacup is bigger than Rex!')
-#
+
 
 # Exercise 3 - Who's the song producer?
 
@@ -98,36 +97,36 @@
 
 # Exercise 4 : Afternoon At The Zoo
 #INCOMPLETE
-class Zoo:
-
-    def __init__(self, zoo_name):
-        self.name = zoo_name
-
-    def add_animal(new_animal):
-        if new_animal not in animals:
-            animals.append(new_animal)
-
-    def get_animals(self):
-        print('The following animals are in the farm: ')
-        for animal in self:
-            print(animal)
-
-
-    def sell_animal(animal_sold):
-        animals.remove(animal_sold)
-        pass
-
-    def sort_animals(self):
-        print(sorted(animals))
-
-animals = []
-
-Zoo.add_animal('Pig')
-Zoo.add_animal('Chicken')
-Zoo.add_animal('Goat')
-Zoo.add_animal('Cow')
-Zoo.add_animal('Horse')
-Zoo.get_animals(animals)
-Zoo.sell_animal('Chicken')
-
-
+# class Zoo:
+#
+#     def __init__(self, zoo_name):
+#         self.name = zoo_name
+#
+#     def add_animal(new_animal):
+#         if new_animal not in animals:
+#             animals.append(new_animal)
+#
+#     def get_animals(self):
+#         print('The following animals are in the farm: ')
+#         for animal in self:
+#             print(animal)
+#
+#
+#     def sell_animal(animal_sold):
+#         animals.remove(animal_sold)
+#         pass
+#
+#     def sort_animals(self):
+#         print(sorted(animals))
+#
+# animals = []
+#
+# Zoo.add_animal('Pig')
+# Zoo.add_animal('Chicken')
+# Zoo.add_animal('Goat')
+# Zoo.add_animal('Cow')
+# Zoo.add_animal('Horse')
+# Zoo.get_animals(animals)
+# Zoo.sell_animal('Chicken')
+#
+#
