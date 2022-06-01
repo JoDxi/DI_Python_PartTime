@@ -33,11 +33,11 @@
 
 # Exercise 9
 
-from func import addUsers, users
-addUsers()
-addUsers()
-addUsers()
-print(users)
+# from func import addUsers, users
+# addUsers()
+# addUsers()
+# addUsers()
+# print(users)
 
 
 
