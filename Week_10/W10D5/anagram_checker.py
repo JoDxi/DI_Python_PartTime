@@ -7,7 +7,7 @@ class AnagramChecker:
     def __init__(self):
         self.word = None
         with open('sowpods.txt', 'r') as sow:
-            sow.read()
+            sow.read() # you are not doing anything with this
 
     def is_valid_word(self):
         pattern = "[0-9 ]"
