@@ -1,0 +1,32 @@
+Q1. What will be the OUTPUT of the following statement?
+
+    SELECT COUNT(*) 
+    FROM FirstTab AS ft WHERE ft.id NOT IN ( SELECT id FROM SecondTab WHERE id IS NULL )
+
+Answer - It will grab the firstTab as "ft", check if ft.id (the id from firsttab) exists in the second tab, and it will count thow mnay occorucances are there. it is essentially comparing the two tables. 
+
+
+
+Q2. What will be the OUTPUT of the following statement?
+SELECT COUNT(*) 
+    FROM FirstTab AS ft WHERE ft.id NOT IN ( SELECT id FROM SecondTab WHERE id = 5 )
+
+Answer - will grab ID from first tab and check if its NOT in the second tab (id = 5) (again comparing two tables) and return the number of times it matches 
+
+
+
+Q3. What will be the OUTPUT of the following statement?
+SELECT COUNT(*) 
+    FROM FirstTab AS ft WHERE ft.id NOT IN ( SELECT id FROM SecondTab )
+
+Answer - Will check if any ID from the firsttab is not in the second tab 
+
+
+
+
+Q4. What will be the OUTPUT of the following statement?
+
+    SELECT COUNT(*) 
+    FROM FirstTab AS ft WHERE ft.id NOT IN ( SELECT id FROM SecondTab WHERE id IS NOT NULL )
+
+Answer - Will compare the ID's from both tables except for the ones that are NULL
